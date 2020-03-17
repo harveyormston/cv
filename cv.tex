@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{article}
-%-----------------------------------------------------------
+
 \usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
 \usepackage{graphicx}
 \usepackage{url}
@@ -34,18 +34,13 @@
 \usepackage[hidelinks]{hyperref}
 \urlstyle{sf}
 
-%-----------------------------------------------------------
-%Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[3]{\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r} \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\ \end{tabular*}\vspace{-8pt}}
-%-----------------------------------------------------------
+
 \begin{document}
 \hspace{0.5cm}\\[-0.2cm]
 
-
-% \hfill{\href{mailto:harveyormston@me.com}{harveyormston@me.com}}}}\\[\lsep]
-% \resheading{\textbf{Harvey Ormston \hfill{harveyormston@me.com}}}\\[\lsep]
 \resheading{\textbf{Harvey Ormston \hfill{\href{mailto:harveyormston@me.com}{\nolinkurl{harveyormston@me.com}}}}}\\[\lsep]
 \\
 \begin{itemize}[align=left]
