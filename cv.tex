@@ -1,0 +1,159 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumitem}
+\usepackage[geometry]{ifsym}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom{}
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\sep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\righthyphenmin=62
+\lefthyphenmin=62
+\pagestyle{empty}
+
+\usepackage[hidelinks]{hyperref}
+\urlstyle{sf}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r} \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\ \end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+
+% \hfill{\href{mailto:harveyormston@me.com}{harveyormston@me.com}}}}\\[\lsep]
+% \resheading{\textbf{Harvey Ormston \hfill{harveyormston@me.com}}}\\[\lsep]
+\resheading{\textbf{Harvey Ormston \hfill{\href{mailto:harveyormston@me.com}{\nolinkurl{harveyormston@me.com}}}}}\\[\lsep]
+\\
+\begin{itemize}[align=left]
+\item[]Creative and enthusiastic career level Hardware/Software Engineer and
+  Manager with a strong appreciation of development and manufacturing
+    integration life-cycles. Excellent systems and test engineering knowledge as
+    well as proven leadership qualities. An innovator, who works well in a team
+    environment but also a decision maker who can act autonomously. Accustomed
+    to a very deadline driven environment, dealing face to face with customers
+    at a technical level and regular travel as required by business needs.
+\\
+\end{itemize}
+
+\resheading{\textbf{Key Skills}}\\[\lsep]
+\\
+\begin{itemize}[label=\FilledSmallSquare, leftmargin=50pt]
+\item Software and hardware test development
+\item Programming (Python, C, C++, Matlab, bash)
+\item Digital Signal Processing (DSP) and Embedded Software (ARM Cortex-M, etc)
+\item Algorithm evaluation, Data Analysis and Audio Quality measurement
+\item Software development tools and processes (Jira, git, svn, Jenkins, pytest, make, Vagrant)
+\item Project / Team Management
+\item Mobile software platforms (iOS)
+\item Web stack (http, html/css, Apache/Tomcat, JMeter, Flask)
+\item Wireless communications protocols (BLE, GSM, C2K, WCDMA)
+\item Strong *nix CLI user/administrator
+\\
+\end{itemize}
+
+\resheading{\textbf{Career History}}\\[\lsep]
+
+\begin{itemize}[align=left]
+\item[] \textbf{2011 – present: Dialog Semiconductor, Principal DSP Software Verification Engineer}
+\item[] Dialog Semiconductor creates energy-efficient, highly integrated,
+  mixed-signal circuits optimised for personal portable, short-range wireless,
+    lighting, display and automotive applications. At Dialog, I help lead the
+    test activity for DSP Software and Hardware.
+\\
+\end{itemize}
+
+\begin{itemize}[label=\FilledSmallSquare, leftmargin=50pt]
+\item Specify, plan and execute testing of DSP and Embedded Software.
+\item Develop software (in Python, C and C++) for the purpose of test automation.
+\item Perform analysis and characterisation of DSP algorithms such as Active Noise Cancellation (ANC), Dynamic Range Compression, Sensor Fusion, Asynchronous Sample Rate Conversion, EQ/Filtering and many others.
+\item Provide assessment of the quality (both subjective and objective) of algorithms and explore opportunities for improvement where necessary.
+\item Control Continuous Integration (using Jenkins) and Release of Software and Hardware deliverables.
+\item Perform system level test and hardware-based evaluation.
+\item Benchmark software against market competitor solutions and profile for performance (MIPS, memory footprint, power consumption, etc)
+\item Work with lab equipment including the Audio Precision APx series to perform audio quality measurements.
+\item Devise automated bench experiments using measurement hardware where required.
+\\
+\end{itemize}
+
+\begin{itemize}[align=left]
+\item[] \textbf{2004 – 2011: I-play / Oberon Media, QA Manager / Producer}
+\item[] I-play’s primary business was the development and publishing of games
+  for mobile handsets. At I-play, I was responsible for QA processes and
+    project delivery across the global Reference development division, managing
+    a team of up to 40 test engineers and leads in up to 6 different sites.
+\\
+\end{itemize}
+
+\begin{itemize}[label=\FilledSmallSquare, leftmargin=50pt]
+\item Work with Production and R\&D teams to test new technologies and product features.
+\item Identify requirements and opportunities for process improvement within the QA department and provide documentation and tools to assist project teams.
+\item Provide administrative and development support for all testing tools (bug database, TCM tools, build management, version control, automated test, etc).
+\item Plan, project manage and deploy QA resources across, on average, 6 concurrently running projects in various stages of development.
+\item Monitor test activity and provide technical or strategic judgements, assessing the impact of issues.
+\item Hire and train new testing staff. Lead on-going training and improvement of existing staff.
+\\
+\end{itemize}
+
+\begin{itemize}[align=left]
+\item[] \textbf{2000 – 2003: Agilent Technologies, New Product Systems Engineer / Product Engineer}
+\item[] I worked on the manufacturing team for Agilent’s 8960 wireless
+  communications test set. This product delivers test/laboratory development
+    and protocol analysis solutions for digital and analogue cellular
+    modulation formats.
+\\
+\end{itemize}
+
+\begin{itemize}[label=\FilledSmallSquare, leftmargin=50pt]
+\item Test definition and development.
+\item System characterisation to ensure suitability for integration into Final Test environment.
+\item Development (definition of test methodology) and implementation (in software) of suitable qualification/production tests for RF Source hardware.
+\item Exhaustive parametric characterisation of Baseband RF Source hardware by programming complex, multi-variable measurement routines and experiments.
+\item Development of software tools and documentation to assist in production diagnostics.
+\\
+\end{itemize}
+
+\resheading{\textbf{Education and Qualifications} }\\[\lsep]
+\\
+\begin{itemize}
+  \item[] BEng (Hons) Electronics and Electrical Engineering, The University of Edinburgh (1996 – 2000)
+\item[] Systems Engineering, Signal Processing, Systems Theory, Radio Frequency
+  Engineering, Digital Communications, Circuit Theory, Microelectronic Devices,
+    Electromagnetics, Product Studies, Power Electronics, Computer Science.
+\\
+\end{itemize}
+
+\resheading{\textbf{Activities \& Interests} }\\[\lsep]
+\\
+\begin{itemize}
+\item[] I enjoy programming in my spare time and am active in audio and games
+  software development. I have a keen interest in music and run a small
+    home-based recording studio. Other interests include reading, cinema and
+    swimming. I have an intermediate knowledge of German.
+\\
+\end{itemize}
+
+\end{document}
